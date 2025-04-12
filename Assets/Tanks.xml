@@ -1,0 +1,1174 @@
+<GameObject Name = "level">
+		<Component Name = "PositionComponent" >
+		<X>0</X>
+		<Y>0</Y>
+	</Component>
+	<Component Name = "ImageComponent" >
+		<Image>Assets/Maze.png</Image>
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/480.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>0</X>
+		<Y>-16</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/480.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>0</X>
+		<Y>33</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/480V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>0</X>
+		<Y>0</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/480.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>0</X>
+		<Y>465</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/480V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>465</X>
+		<Y>0</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>49</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64x1.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/1x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>160</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>89</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>145</X>
+		<Y>97</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>145</X>
+		<Y>144</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>241</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/96.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>289</X>
+		<Y>81</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>49</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>241</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>369</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>369</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>377</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>129</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>49</X>
+		<Y>145</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>145</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>241</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>185</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>177</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>49</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>145</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>216</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>209</X>
+		<Y>233</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x32.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>200</X>
+		<Y>241</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>209</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>216</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>257</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>257</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>257</X>
+		<Y>232</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>281</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x32.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>273</X>
+		<Y>241</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64V.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>369</X>
+		<Y>225</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>209</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>257</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>257</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>281</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>257</X>
+		<Y>281</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>369</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>369</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>377</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>273</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>49</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>49</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>104</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>65</X>
+		<Y>329</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>56</X>
+		<Y>337</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>49</X>
+		<Y>377</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>145</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>193</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>241</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>329</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>321</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>97</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>145</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>241</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "flashingWall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>369</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/16x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>417</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x64.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>425</X>
+		<Y>369</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/96x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>417</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<!--
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/8x16.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>417</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+-->
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/112x8.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>321</X>
+		<Y>425</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>16</X>
+		<Y>417</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>96</X>
+		<Y>417</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>177</X>
+		<Y>417</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "wall">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/48.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>241</X>
+		<Y>417</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+</GameObject> 
+
+<GameObject Name = "enemy">
+	<Component Name = "ImageComponent" >
+		<Image>Assets/Blue.png</Image>
+	</Component>
+	<Component Name = "PhysicsComponent" >
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>433</X>
+		<Y>433</Y>
+	</Component>
+	<Component Name = "AIComponent" >
+	</Component>
+	<Component Name = "EnemyComponent" >
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+	<Component Name = "DeathComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "player" >
+	<Component Name = "ImageComponent" >
+		<Image>Assets/Red.png</Image>
+	</Component>
+	<Component Name = "PhysicsComponent" >
+	</Component>
+	<Component Name = "InputComponent" >
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>161</X>
+		<Y>241</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+	<Component Name = "DeathComponent" >
+	</Component>
+	<Component Name = "HeroComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "bullet" >
+	<Component Name = "ImageComponent" >
+		<Image>Assets/Bullet.png</Image>
+	</Component>
+	<Component Name = "PhysicsComponent" >
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>-200</X>
+		<Y>0</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+	<Component Name = "BulletComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "enemyBullet" >
+	<Component Name = "ImageComponent" >
+		<Image>Assets/Bullet2.png</Image>
+	</Component>
+	<Component Name = "PhysicsComponent" >
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>-300</X>
+		<Y>0</Y>
+	</Component>
+	<Component Name = "CollisionComponent" >
+	</Component>
+	<Component Name = "EnemyBulletComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "gun" >
+	<Component Name = "ImageComponent" >
+		<Image>Assets/Gun.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>161</X>
+		<Y>249</Y>
+	</Component>
+	<Component Name = "AimingComponent" >
+	</Component>
+</GameObject>
+
+<GameObject Name = "teleporter" >
+	<Component Name = "ImageComponent" >
+		<Image>Assets/32x32.png</Image>
+	</Component>
+	<Component Name = "PositionComponent" >
+		<X>225</X>
+		<Y>241</Y>
+	</Component>
+	<Component Name = "TeleporterComponent" >
+	</Component>
+</GameObject>
