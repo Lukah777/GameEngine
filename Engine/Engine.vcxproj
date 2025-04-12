@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{efeb5985-e618-4e7d-9981-65cea95cfcf8}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Build\Output\$(Platform)\</OutDir>
+    <IntDir>..\Build\Intermediate\$(Platform)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)\Libs</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Build\Output\$(Platform)\</OutDir>
+    <IntDir>..\Build\Intermediate\$(Platform)\</IntDir>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)\Libs</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\Build\Output\$(Platform)\</OutDir>
+    <IntDir>..\Build\Intermediate\$(Platform)\</IntDir>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)\Libs</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\Build\Output\$(Platform)\</OutDir>
+    <IntDir>..\Build\Intermediate\$(Platform)\</IntDir>
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(ProjectDir)\Libs</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Libs\SDL2\include\;..\Libs\SDL2_image\include\;..\Libs\zLib\;..\TinyXML\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;zlibstat.lib; TinyXML.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Libs/SDL2/lib/$(Platform);../Libs/SDL2_image/lib/$(Platform);../Libs/zLib/zLibStat$(Configuration)/;..\Build\Output\$(Platform)\</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "..\Libs\SDL2\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y
+xcopy "..\Libs\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Libs\SDL2\include\;..\Libs\SDL2_image\include\;..\Libs\zLib\;..\TinyXML\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;zlibstat.lib; TinyXML.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Libs/SDL2/lib/$(Platform);../Libs/SDL2_image/lib/$(Platform);../Libs/zLib/zLibStat$(Configuration)/;..\Build\Output\$(Platform)\</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "..\Libs\SDL2\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y
+xcopy "..\Libs\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Libs\SDL2\include\;..\Libs\SDL2_image\include\;..\Libs\zLib\;..\TinyXML\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;zlibstat.lib;TinyXML.lib;Lua.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Libs/SDL2/lib/$(Platform);../Libs/SDL2_image/lib/$(Platform);../Libs/zLib/zLibStat$(Configuration)/;..\Build\Output\$(Platform)\</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "..\Libs\SDL2\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y
+xcopy "..\Libs\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Libs\SDL2\include\;..\Libs\SDL2_image\include\;..\Libs\zLib\;..\TinyXML\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;zlibstat.lib;TinyXML.lib;Lua.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../Libs/SDL2/lib/$(Platform);../Libs/SDL2_image/lib/$(Platform);../Libs/zLib/zLibStat$(Configuration)/;..\Build\Output\$(Platform)\</AdditionalLibraryDirectories>
+      <SubSystem>Console</SubSystem>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy "..\Libs\SDL2\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y
+xcopy "..\Libs\SDL2_image\lib\$(Platform)\*.dll" "$(OutDir)" /d /i /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BLD\BleachNew.cpp" />
+    <ClCompile Include="AIComponent.cpp" />
+    <ClCompile Include="AimingComponent.cpp" />
+    <ClCompile Include="BulletComponent.cpp" />
+    <ClCompile Include="CollisionComponent.cpp" />
+    <ClCompile Include="DeathComponent.cpp" />
+    <ClCompile Include="DoorComponent.cpp" />
+    <ClCompile Include="EnemyBulletComponent.cpp" />
+    <ClCompile Include="EnemyComponent.cpp">
+      <DeploymentContent>true</DeploymentContent>
+    </ClCompile>
+    <ClCompile Include="HeroComponent.cpp" />
+    <ClCompile Include="KeyComponent.cpp" />
+    <ClCompile Include="MessageSystem.cpp" />
+    <ClCompile Include="TeleporterComponent.cpp" />
+    <ClCompile Include="TilingComponent.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageComponent.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="InputComponent.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="PhysicsComponent.cpp" />
+    <ClCompile Include="PositionComponent.cpp" />
+    <ClCompile Include="ResourceSystem.cpp" />
+    <ClCompile Include="System.cpp" />
+    <ClCompile Include="TinyXMLParser.cpp" />
+    <ClCompile Include="TMXParser.cpp" />
+    <ClCompile Include="Unzipper.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BLD\BleachNew.h" />
+    <ClInclude Include="..\BLD\BleachNewConfig.h" />
+    <ClInclude Include="AIComponent.h" />
+    <ClInclude Include="AimingComponent.h" />
+    <ClInclude Include="BulletComponent.h" />
+    <ClInclude Include="CollisionComponent.h" />
+    <ClInclude Include="DeathComponent.h" />
+    <ClInclude Include="DoorComponent.h" />
+    <ClInclude Include="EnemyBulletComponent.h" />
+    <ClInclude Include="EnemyComponent.h" />
+    <ClInclude Include="HeroComponent.h" />
+    <ClInclude Include="JNMath.h" />
+    <ClInclude Include="KeyComponent.h" />
+    <ClInclude Include="MessageSystem.h" />
+    <ClInclude Include="TeleporterComponent.h" />
+    <ClInclude Include="TilingComponent.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageComponent.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputComponent.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="PhysicsComponent.h" />
+    <ClInclude Include="PositionComponent.h" />
+    <ClInclude Include="ResourceSystem.h" />
+    <ClInclude Include="System.h" />
+    <ClInclude Include="TinyXMLParser.h" />
+    <ClInclude Include="TMXParser.h" />
+    <ClInclude Include="Unzipper.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
